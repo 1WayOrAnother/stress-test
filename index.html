@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Survey</h2>
+      </div>
+      <div class="my-class">
+        <form id="trackform">
+          <div class="form-group">
+            <p>Check the following boxes for emotional stresses that apply to you:</p>
+            <input class="one" type="checkbox" name="emotional" value="0"> Depression or general unhappiness.<br>
+            <input class="two" type="checkbox" name="emotional" value="1">Anxiety and agitation<br>
+            <input class="thre" type="checkbox" name="emotional" value="2">Moodiness, irritability, or anger.<br>
+            <input class="four" type="checkbox" name="emotional" value="3">Feeling overwhelmed.<br>
+            <input class="five" type="checkbox" name="emotional" value="4">Loneliness and isolation.<br>
+
+          </div>
+          <div class="form-group">
+            <p>Physical symptoms:</p>
+            <input class="six" type="checkbox" name="physical" value="0"> Aches and pains.<br>
+            <input class="seven" type="checkbox" name="physical" value="1">Diarrhea or constipation.<br>
+            <input class="eight" type="checkbox" name="physical" value="2">Nausea, dizziness.<br>
+            <input class="nine" type="checkbox" name="physical" value="3">Chest pain, rapid heart rate.<br>
+            <input class="ten" type="checkbox" name="physical" value="4">Loss of sex drive.<br>
+          </div>
+         <button type="submit">Submit Survey</button>
+        </form>
+      </div>
+      <div class="results-ok">
+        <p>You seem to experince less negative side affects of stress. Keep up the good work managing your stress. <span id="test"></span></p>
+      </div>
+      <div class="results-help">
+        <p>The negative effects of stress are damaging you. Seek immediate help. Try these remedies to alleviate your stress: <span id="test"></span></p>
+        <ul>
+          <li>Meditate</li>
+          <li>Pet a Cat</li>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>
